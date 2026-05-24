@@ -1,0 +1,16 @@
+class c:
+    def redius(self):
+        self.r=float(input("enter your redius:"))
+
+    def calculate(self) :
+        self.area = 3.14*self.r**2
+
+
+    def display(self)       :
+        print('redius:',self.r,'area:',self.area)
+
+
+myclass=c()
+myclass.redius()
+myclass.calculate ()
+myclass.display()
